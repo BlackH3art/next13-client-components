@@ -13,11 +13,11 @@ export const AdminButton = () => {
   }
   return (
     <div>
-      <button onClick={handleClick}>
+      <button className="border border-red-400 p-3" onClick={handleClick}>
         click client component
       </button>
 
-      <p>Counter:</p>
+      <p>Licznik:</p>
       <p>{count}</p>
     </div>
   )
